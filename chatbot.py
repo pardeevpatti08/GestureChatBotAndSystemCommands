@@ -9,7 +9,7 @@ import google.generativeai as genai # type: ignore
 import difflib
 
 # Load API Key
-API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBV--3FY0KJXMhl9M-dN2JWN5QWCg9MMgs")  # Replace with actual key
+API_KEY = os.getenv("GEMINI_API_KEY", "API_KEY")  # Replace with actual key
 genai.configure(api_key=API_KEY)
 
 # Initialize MediaPipe Hands

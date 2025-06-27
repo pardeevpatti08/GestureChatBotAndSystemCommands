@@ -8,7 +8,7 @@ import google.generativeai as genai # type: ignore
 import difflib
 
 # Load API Key
-API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBb01lhbM8tQ3HGknr-ENXma9MzX-xHdKU")
+API_KEY = os.getenv("GEMINI_API_KEY", "API_KEY")
 if not API_KEY:
     st.error("API Key is missing! Set GEMINI_API_KEY as an environment variable.")
     st.stop()
